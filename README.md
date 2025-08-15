@@ -1,15 +1,24 @@
-## Desafio de projeto Ransomware
-Este desafio de projeto faz parte do conteúdo abordado pelo Santander Bootcamp Cibersegurança, realizado pela DIO em parceria com o Santander Universidades.
+# Desafio de Projeto — Ransomware
 
-## Sobre o projeto
-Este projeto foi criado utilizando Python e as bibibliotecas os para interagir com o sistema operacional e a pyaes para encriptografar o texto
+Este desafio faz parte do conteúdo abordado no **Santander Bootcamp Cibersegurança**, realizado pela [DIO](https://www.dio.me/) em parceria com o **Santander Universidades**.
 
-## Comandos utilizados
-sudo apt install python3-pyaes: para instalar o pyaes no ambiente kali-linux
-mdkir ransomware-projeto - para simular a criação de uma pasta no computador
-cd ransonware-projeto - para entrar na pasta
+## 📖 Sobre o Projeto
+Este projeto foi desenvolvido em **Python**, utilizando as bibliotecas:
+- **os** → para interagir com o sistema operacional  
+- **pyaes** → para criptografar e descriptografar arquivos  
 
-## Arquivos do projeto
-teste.txt: Arquivo que será criptografado
-encrypter.py: Código que irá criptografar o arquivo teste.txt, alterando a sua extensão para teste.txt.ransomwaretroll e deixando seu conteúdo criptografado.
-decrypter.py: Código que irá descriptografar o arquivo teste.txt.ransomwaretroll.
+O objetivo é simular o funcionamento básico de um ransomware, criptografando e descriptografando um arquivo de texto.
+
+---
+
+## 🛠️ Comandos Utilizados
+
+```bash
+# Instalar a biblioteca pyaes no Kali Linux
+sudo apt install python3-pyaes
+
+# Criar a pasta do projeto
+mkdir ransomware-projeto
+
+# Entrar na pasta do projeto
+cd ransomware-projeto
